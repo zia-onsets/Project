@@ -14,7 +14,7 @@ const CButton = props => {
             style={{ ...styles.mainContainer, ...{ borderRadius: props.borderRadius } }}>
             <TouchableOpacity onPress={props.onSelect} style={styles.container}>
                 <View>
-                    <Text style={{ color: props.color, fontSize: props.size, fontFamily: props.fontFamily, fontWeight: props.weight }}>{props.title}</Text>
+                    <Text style={{ color: props.color, fontSize: props.fontSize, fontFamily: props.fontFamily, fontWeight: props.fontWeight }}>{props.title}</Text>
                 </View>
             </TouchableOpacity>
         </LinearGradient>

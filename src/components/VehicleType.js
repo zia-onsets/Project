@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { View, Text, Button, Image, TouchableOpacity, StyleSheet } from "react-native";
-import { color } from "react-native-reanimated";
+
 const VehicleType = props => {
-    const [color, setcolor] = useState('#FFFF')
     return (
         <TouchableOpacity style={{ ...styles.container, ...{ borderColor: props.bordercolor } }} onPress={props.onSelect}>
 
@@ -19,7 +18,7 @@ const VehicleType = props => {
 };
 const styles = StyleSheet.create({
     container: {
-        width: "31%",
+        width: "20%",
         height: "100%",
         borderRadius: 15,
         borderWidth: 1,
